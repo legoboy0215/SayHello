@@ -1,0 +1,18 @@
+name: SayHello
+main: SayHello\SayHello
+version: 1.0.0
+api: 1.0.0
+load: STARTUP
+author: UltimateMcraft
+description: Says hello to the specified player
+website: http://ultiweb.ml
+commands:
+ login:
+  description: "Says hello to the specified player!"
+  usage: "/hello <player>"
+  permission: sayhello.say
+
+permissions:
+   sayhello.say:
+    description: "Allows saying hello"
+    default: true
